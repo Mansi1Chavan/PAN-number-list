@@ -1,0 +1,38 @@
+body{
+    background-color: slategrey;;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    padding:100px 100px;
+}
+
+
+.circle{
+    background-color: green;
+    margin:50px;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    animation: identifiers 10s infinite;
+}
+
+
+
+@keyframes identifiers {
+    0%{
+        transform:translate(0px,0px) scale(1);
+    }
+    33%{
+        transform:translate(30px,-30px) scale(1.1);
+    }
+    60%{
+        transform:translate(50px,-50px) scale(2.1);
+    }
+    100%{
+        transform:translate(70px,-70px) scale(.5);
+    }
+
+
+}

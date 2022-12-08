@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="list.css">
+</head>
+<body>
+    <h1>Dynamic List</h1>
+
+<main>
+    <div class="list">
+        <input type="text" placeholder="Search Name.." id="searchInput">
+        <button class="searchBtn">Search</button>
+        <button class="sortBtn">Sort</button></div>
+
+    <div class="container">
+      <input type="text" id="inputText" placeholder="Enter Name..">
+      <input type="number" id="cardNumber" placeholder="Enter PAN Card Number..">
+    <select name="degree" id="degree" class="degree">
+        <option value="Select">Please Select your Qualification</option>
+        <option value="Secondary">Secondary</option>
+        <option value="Higher Secondary">Higher Secondary</option>
+        <option value="Graduate">Graduate</option>
+        <option value="Post Graduate">Post Graduate</option>
+    </select>     
+ <button id="addButton">Add</button>
+    </div>
+   
+        <table id="actionForm">
+            <tr >
+                <th>Name</th>
+                <th>PAN Number</th>
+                <th>Highest Qualification</th>
+                <th>Action</th>
+            </tr>
+
+            <tbody></tbody>
+        </table>
+
+      <div class="alerts"></div>  
+    </main>
+    <script src="list.js"></script>
+</body>
+</html>

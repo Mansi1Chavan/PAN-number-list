@@ -1,0 +1,64 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height:50px;    */
+    
+}
+
+h1{
+    text-align: center;
+    margin-top: 150px;
+}
+input , #addButton {
+    border:2px solid black;
+    width: 225px;
+    padding:10px;
+    margin:10px;
+    color:rgba(218, 17, 17, 0.901);
+}
+.degree{
+    height:35px;   
+    width: 225px;
+    color:rgba(218, 17, 17, 0.901);
+    padding:8px;
+    margin:10px;
+    border:2px solid black;
+
+
+}
+#addButton{
+    background-color: darkgoldenrod;
+    cursor: pointer;
+    width: 80px;
+}
+table{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:50px;
+
+
+}
+.sortBtn , .searchBtn{
+    width: 85px;
+    padding:10px;
+    margin:10px;
+    color:rgba(218, 17, 17, 0.901);
+    cursor: pointer;
+    border:2px solid black;
+
+}
+
+ th{
+    border:2px solid black;
+    padding:10px;
+    margin:50px;
+    width: 190px;
+    background-color: blue;
+    color:aliceblue;
+}
+.list{
+    margin-top: 20px;
+margin-left: 47%;
+}
